@@ -126,3 +126,29 @@ function resetFrame() {
     red.disabled = false;
     yellow.disabled = false;
 }
+
+// Add an event listener for the color mode
+document.getElementById("modeBtn").addEventListener("click", function() {
+    if (!dark) {
+        // Set the attributes to be changed to variables
+        document.querySelector('img[name="primaryLogo"]').src="assets/images/wo-glasses.svg";
+        document.querySelector('img[name="secondaryLogo"]').src="assets/images/Cousins-logo.webp";
+        document.body.style.backgroundImage = "url(assets/images/Cousins.webp"
+        document.body.style.backgroundRepeat = "no-repeat";
+        document.body.style.backgroundPosition = "center center";
+        document.body.style.backgroundSize = "cover";
+        document.getElementById("header").style.backgroundImage = "linear-gradient(135deg, green, blue)";
+        dark=true;
+        this.innerHTML = `Dark mode`
+    } else {
+        document.querySelector('img[name="primaryLogo"]').src="assets/images/wo-glasses-bw.svg";
+        document.querySelector('img[name="secondaryLogo"]').src="assets/images/Cousins-logo-bw.webp";
+        document.body.style.backgroundImage = "url(assets/images/Cousins-bw.webp"
+        document.body.style.backgroundRepeat = "no-repeat";
+        document.body.style.backgroundPosition = "center center";
+        document.body.style.backgroundSize = "cover";
+        document.getElementById("header").style.backgroundImage = "linear-gradient(135deg, black, darkgrey)";
+        dark=false;
+        this.innerHTML = `Colour mode`
+    }
+});
