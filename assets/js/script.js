@@ -32,7 +32,6 @@ function cont() {
     options.style.display = "grid";
 }
 
-
 // Function to replace options section with clock and assign values to the variables needed for countdown
 function setTimer(time) {
     options.style.display = "none";
@@ -44,6 +43,7 @@ function setTimer(time) {
 
 // Function to start, pause or resume the countdown - based upon whichever option was chosen as a timer
 function startPause() {
+
     if (!isRunning) {
 
         countdown = setInterval(function() {
