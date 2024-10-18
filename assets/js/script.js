@@ -26,7 +26,18 @@ let dark = false;
 var redcount = 0;
 var yellcount = 0;
 
+// Function to hide the welcome section and show the options section
 function cont() {
     welcome.style.display = "none";
     options.style.display = "grid";
+}
+
+
+// Function to replace options section with clock and assign values to the variables needed for countdown
+function setTimer(time) {
+    options.style.display = "none";
+    clocks.style.display = "grid";
+    timeLeft = time;
+    initialsetTime = time;
+    document.getElementById("timer").innerHTML = time+1;
 }
