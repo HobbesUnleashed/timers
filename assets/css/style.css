@@ -124,3 +124,39 @@ main {
 #timer {
     font-size: 18em;
 }
+
+button {
+    color: #fff;
+    background-color: black;
+    font-size: 1.2em;
+}
+
+#fifteen, #startPause {
+    grid-area: op1;
+    align-content center;
+
+}
+
+#thirty, #reset {
+    grid-area: op2;
+}
+
+#fortyFive, #yellow {
+    grid-area: op3;
+}
+
+#sixty, #red {
+    grid-area: op4;
+}
+
+#custom, #resetFrame, #continue {
+    grid-area: cus;
+}
+
+#red {
+    color: red;
+}
+
+#yellow {
+    color: yellow;
+}
