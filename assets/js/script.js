@@ -25,3 +25,8 @@ let dark = false;
 // Counters to track if the extension buttons have been pressed
 var redcount = 0;
 var yellcount = 0;
+
+function cont() {
+    welcome.style.display = "none";
+    options.style.display = "grid";
+}
