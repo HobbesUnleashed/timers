@@ -41,3 +41,31 @@ function setTimer(time) {
     initialsetTime = time;
     document.getElementById("timer").innerHTML = time+1;
 }
+
+// Function to start, pause or resume the countdown - based upon whichever option was chosen as a timer
+function startPause() {
+    if (!isRunning) {
+
+        countdown = setInterval(function() {
+            timer.innerHTML = timeLeft+1;
+            timeLeft--;
+
+            // If time is less than or equal to 5 on screen - change text to red
+            if (timeLeft < 4) {
+                timer.style.color = "red";
+            }
+
+            // If timer reaches 0, replace numbers with an 'x'
+            if (timeLeft < -1) {
+                clearInterval(countdown);
+                timer.innerHTML = "X";
+            }
+        }, 1000);
+        startPauseBtn.innerHTML = "Pause";
+    } else {
+        clearInterval(countdown);
+        startPauseBtn.innerHTML = "Resume"
+    }
+
+    isRunning = !isRunning;
+}
