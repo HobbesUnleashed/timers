@@ -90,3 +90,17 @@ function addTime(buttonPressed) {
     red.disabled = true;
     yellow.disabled = true;
 }
+
+// Function to limit the amount of uses to one per frame
+function showDisabled() {
+    if(redcount > 0 && yellcount > 0) {
+        console.log("both used");
+        return;
+    }
+    if(redcount > 0) {
+        yellow.disabled = false;
+    }
+    if(yellcount > 0) {
+        red.disabled = false;
+    }
+}
