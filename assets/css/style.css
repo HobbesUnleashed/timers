@@ -11,7 +11,7 @@
 body {
     display: flex;
     flex-direction: column;
-    background: url(../images/Cousins-bw.webp) no-repeat center center/cover;
+    background: url(../images/cousins-bw.webp) no-repeat center center/cover;
     min-height: 100vh;
     color: #fff;
     background-color: darkgrey;

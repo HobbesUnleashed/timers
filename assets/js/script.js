@@ -132,8 +132,8 @@ document.getElementById("modeBtn").addEventListener("click", function() {
     if (!dark) {
         // Set the attributes to be changed to variables
         document.querySelector('img[name="primaryLogo"]').src="assets/images/wo-glasses.svg";
-        document.querySelector('img[name="secondaryLogo"]').src="assets/images/Cousins-logo.webp";
-        document.body.style.backgroundImage = "url(assets/images/Cousins.webp"
+        document.querySelector('img[name="secondaryLogo"]').src="assets/images/cousins-logo.webp";
+        document.body.style.backgroundImage = "url(assets/images/cousins.webp"
         document.body.style.backgroundRepeat = "no-repeat";
         document.body.style.backgroundPosition = "center center";
         document.body.style.backgroundSize = "cover";
@@ -142,8 +142,8 @@ document.getElementById("modeBtn").addEventListener("click", function() {
         this.innerHTML = `Dark mode`
     } else {
         document.querySelector('img[name="primaryLogo"]').src="assets/images/wo-glasses-bw.svg";
-        document.querySelector('img[name="secondaryLogo"]').src="assets/images/Cousins-logo-bw.webp";
-        document.body.style.backgroundImage = "url(assets/images/Cousins-bw.webp"
+        document.querySelector('img[name="secondaryLogo"]').src="assets/images/cousins-logo-bw.webp";
+        document.body.style.backgroundImage = "url(assets/images/cousins-bw.webp"
         document.body.style.backgroundRepeat = "no-repeat";
         document.body.style.backgroundPosition = "center center";
         document.body.style.backgroundSize = "cover";
