@@ -69,3 +69,24 @@ function startPause() {
 
     isRunning = !isRunning;
 }
+
+// Function to add an extension to the countdown - one per player per frame
+function addTime(buttonPressed) {
+    if(buttonPressed == "red") {
+        redcount++;
+        timeLeft += 15;
+        timer.innerHTML = timeLeft;
+        timer.style.color = "white";
+        redExtUsed =true;
+        timeLeft--;
+    } else {
+        yellcount++;
+        timeLeft += 15;
+        timer.innerHTML = timeLeft;
+        timer.style.color = "white";
+        yellowExtUsed = true;
+        timeLeft--;
+    }
+    red.disabled = true;
+    yellow.disabled = true;
+}
