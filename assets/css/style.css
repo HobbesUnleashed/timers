@@ -160,3 +160,33 @@ button {
 #yellow {
     color: yellow;
 }
+
+footer {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(2, 50px);
+    grid-template-areas:
+    "mode mode .  .  .  .  beg beg"
+    ".    cr   cr cr cr cr cr  .  "
+    ;
+}
+
+#beg {
+    grid-area: beg;
+    align-content: center;
+    justify-self: center;
+}
+
+#mode {
+    grid-area: mode;
+    align-content: center;
+    justify-self: center;
+}
+
+#copyright {
+    grid-area: cr;
+    align-content: end;
+    text-align: center;
+    font-size: x-small;
+    color: blue;
+}
