@@ -115,3 +115,14 @@ function reset() {
     timer.style.color = "white";
     showDisabled();
 }
+
+// Function to reset the frame - everything to be restored to seletions made in the options screen
+function resetFrame() {
+    reset();
+    yellcount = 0;
+    redcount = 0;
+    redExtUsed = false;
+    yellowExtUsed = false;
+    red.disabled = false;
+    yellow.disabled = false;
+}
