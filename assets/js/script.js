@@ -104,3 +104,14 @@ function showDisabled() {
         red.disabled = false;
     }
 }
+
+// Function to reset the timer, but not the extensions used - Frames are made up of multiple visits usually
+function reset() {
+    clearInterval(countdown);
+    isRunning = false;
+    timeLeft = initialsetTime;
+    timer.innerHTML = initialsetTime+1;
+    startPauseBtn.innerHTML = "Start";
+    timer.style.color = "white";
+    showDisabled();
+}
