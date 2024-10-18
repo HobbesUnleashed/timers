@@ -1,0 +1,70 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    background: url(../images/Cousins-bw.webp) no-repeat center center/cover;
+    min-height: 100vh;
+    color: #fff;
+    background-color: darkgrey;
+}
+
+header {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 75px 75px 90px;
+    grid-template-areas: 
+    "pl sl"
+    "pl sl"
+    "en en"
+    ;
+}
+
+#header {
+    background-image: linear-gradient(145deg, black, darkgrey);
+}
+
+#logo {
+    gap: 20px;
+    grid-column: pl;
+    grid-row: pl;
+}
+
+#sponsor > img {
+    width: 50%;
+    margin-left: 50%;
+}
+
+#sponsor {
+    width: 100%;
+    grid-column: sl;
+    grid-row: sl;
+    align-content: center;
+}
+
+#logo > img {
+    width:60%;
+    margin: auto;
+}
+
+#brand, #slogan {
+    grid-area: en;
+    text-align: center;
+}
+
+#brand {
+    align-self: center;
+    font-family: "Dancing script", cursive;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+#slogan {
+    align-self: end;
+    font-family: "Monserrat", sans-serif;
+    font-size: 20px;
+}
