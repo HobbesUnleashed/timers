@@ -156,6 +156,7 @@ document.getElementById("modeBtn").addEventListener("click", function() {
 // Function to retrun to the options screen and update which timer you require
 function beginning() {
     clock.style.display = "none";
+    welcome.style.display = "none";
     options.style.display = "grid";
     resetFrame();
 }
