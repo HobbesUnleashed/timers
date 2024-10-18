@@ -68,3 +68,59 @@ header {
     font-family: "Monserrat", sans-serif;
     font-size: 20px;
 }
+
+main {
+    width: 90%;
+    margin: auto;
+    z-index: 99;
+}
+
+#home, #clocks, #welcome{
+    width: 90%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-template-rows: 40% 30px 1fr 30px 1fr 30px 1fr 30px;
+    grid-template-areas: 
+    "dis dis dis dis dis dis dis"
+    ".   .   .   .   .   .   .  "
+    ".   op1 op1 .   op2 op2 .  "
+    ".   .   .   .   .   .   .  "
+    ".   op3 op3 .   op4 op4 .  "
+    ".   .   .   .   .   .   .  "
+    ".   cus cus cus cus cus .  "
+    ".   .   .   .   .   .   .  "
+    ;
+    height: 450px;
+}
+
+#clocks {
+    display: none;
+}
+
+#home {
+    display: none;
+} 
+
+#disOpts, #timer, #spiel {
+    grid-area: dis;
+    text-align: center;
+    align-self: center;
+}
+
+#disOpts, #spiel {
+    align-content: center;
+    font-size: 2em;
+    background-color: rgba(0, 0, 0, .6);
+    height: 100%;
+    width: 63%;
+    margin: auto;
+}
+
+#spiel {
+    font-size: 1.5em;;
+}
+
+#timer {
+    font-size: 18em;
+}
