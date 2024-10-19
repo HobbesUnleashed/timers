@@ -4,7 +4,10 @@ const clock = document.getElementById("clocks");
 const welcome = document.getElementById("welcome");
 // Set the timer id to a variable
 const timer = document.getElementById("timer");
-//startPause button
+// Set audio to a variable(s)
+const beepsound = document.getElementById("beep");
+const xsound = document.getElementById("xxx");
+// startPause button
 const startPauseBtn = document.getElementById("startPause");
 // Set constants for the elements to call regularly
 var red = document.getElementById("red");
@@ -53,12 +56,14 @@ function startPause() {
             // If time is less than or equal to 5 on screen - change text to red
             if (timeLeft < 4) {
                 timer.style.color = "red";
+                beepsound.play()
             }
 
             // If timer reaches 0, replace numbers with an 'x'
             if (timeLeft < -1) {
                 clearInterval(countdown);
                 timer.innerHTML = "X";
+                xsound.play();
             }
         }, 1000);
         startPauseBtn.innerHTML = "Pause";
