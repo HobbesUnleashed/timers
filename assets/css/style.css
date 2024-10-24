@@ -96,11 +96,26 @@ main {
     ".   op1 op1 .   op2 op2 .  "
     ".   .   .   .   .   .   .  "
     ".   op3 op3 .   op4 op4 .  "
-    ".   .   .   .   .   .   .  "
+    ". time time time time time ."
     ".   cus cus cus cus cus .  "
     ".   .   .   .   .   .   .  "
     ;
     height: 450px;
+}
+
+#welcome {
+    width: 90%;
+    margin:auto;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 40% 30px 1fr 30px 60px;
+    grid-template-areas: 
+    "tent"
+    "."
+    "info"
+    "."
+    "tinue"
+    ;
 }
 
 /* Remove sections from view until required */
@@ -112,8 +127,14 @@ main {
     display: none;
 } 
 
-#disOpts, #timer, #spiel {
+#disOpts, #timer {
     grid-area: dis;
+    text-align: center;
+    align-self: center;
+}
+
+#spiel {
+    grid-area: tent;
     text-align: center;
     align-self: center;
 }
@@ -127,12 +148,22 @@ main {
     margin: auto;
 }
 
-#spiel {
-    font-size: 1.5em;;
-}
+/* #spiel {
+    font-size: 1.5em;
+} */
 
 #timer {
     font-size: 18em;
+}
+
+#info {
+    grid-area: info;
+    font-size: 1.5em;
+    background-color: rgba(0, 0, 0, .6);
+    align-content: center;
+    margin: auto;
+    width: 55%;
+    text-align: center;
 }
 
 /* Style the buttons for site */
@@ -160,8 +191,25 @@ button {
     grid-area: op4;
 }
 
-#custom, #resetFrame, #continue {
+#ext {
+    grid-area: time;
+    text-align: center;
+    align-content: center;
+    color: rgb(3, 179, 47);
+    background-color: rgba(0, 0, 0, .6);
+    width: 80%;
+    margin:auto;
+}
+
+#custom, #resetFrame {
     grid-area: cus;
+}
+
+#continue {
+    grid-area: tinue;
+    width: 60%;
+    height: 100%;
+    margin: auto;
 }
 
 #red {

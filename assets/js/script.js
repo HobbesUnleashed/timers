@@ -143,6 +143,7 @@ document.getElementById("modeBtn").addEventListener("click", function() {
         document.body.style.backgroundPosition = "center center";
         document.body.style.backgroundSize = "cover";
         document.getElementById("header").style.backgroundImage = "linear-gradient(135deg, green, blue)";
+        document.getElementById("ext").style.color = "rgb(179, 3, 3)";
         dark=true;
         this.innerHTML = `Dark mode`
     } else {
@@ -153,6 +154,7 @@ document.getElementById("modeBtn").addEventListener("click", function() {
         document.body.style.backgroundPosition = "center center";
         document.body.style.backgroundSize = "cover";
         document.getElementById("header").style.backgroundImage = "linear-gradient(135deg, black, darkgrey)";
+        document.getElementById("ext").style.color = "rgb(3, 179, 47)";
         dark=false;
         this.innerHTML = `Colour mode`
     }
