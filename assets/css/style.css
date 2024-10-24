@@ -199,6 +199,7 @@ button {
     background-color: rgba(0, 0, 0, .6);
     width: 80%;
     margin:auto;
+    font-size: .8em;
 }
 
 #custom, #resetFrame {
