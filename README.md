@@ -80,3 +80,55 @@ There is also the added option of changing the presentation of the site from a b
 
 ---
 
+## Features
+
+ * Site is for the sole purpose of selecting and running a shot-timer of a specific length
+ * Additional restrictions do apply within the site, namely around the use of extensions
+
+ _This website is set to display in black and white as a default, images below are in colour to show the alternative_
+
+### Existing features
+
+ * Site title
+    * The site title is text based and consists of the _brand_ name and a _slogan_
+    * The title is static throughout the site, with slight movement dependent upon the user screen size
+    ![Title](assets/readme/title.png)
+
+ * Logos
+    * There are two logos on the site page, one for _Rack 'n' Beard productions_, the other for _Cousins Snooker and Pool hall_ who were gracious and allowed use of images of their club
+        * The _Rack 'n' Beard_ logo comprises of an image of a set of English 8-ball pool balls set and ready for a break, with a beard attached to make the logo resemble a face
+        * The -Cousins_ logo resembles an 8-ball from the same game with their name emblazoned across it also
+        * Logos remain in the top-left and top-right of the screen throughout, although align slightly differently depending upon the user screen size
+        ![Logos](assets/readme/logos.png)
+
+ * Navigation
+    * This is a single page site, utilising css and javascript to show and hide elements as required and replace with the users selection
+    * Site is relatively linear and can be progressed through using the _continue_ buttons, or making selections
+    * Users can navigate back to make changes to their selections, but the home/welcome page is only available when entering the site or refreshing the page in browser
+
+ * Welcome/Landing screen
+    * Provides information about the purpose of the website to the user
+    * Allows the user to continue beyond this screen
+    
+    ![Welcome screen](assets/readme/welcome.png)
+
+ * Timer selection screen
+    * Provides four options to choose from to populate a timer for the users match
+    * Once an option is chosen the screen automatically proceeds to the timer itself
+    ![Timer selection](assets/readme/timers.png)
+
+ * Coundown screen
+    * Provides the selected timer on screen along with options to be used throughout the game
+    * _Start/Pause/Resume_ button changes its text depending on the state of the clock
+    * _Reset_ button to reset the timer, whilst maintaining tracking of this individual game/frame
+    * _Yellow_ and _Red_ extension buttons - these work in the same way as eachother, but can only be used once per player per frame of pool
+    * Warning to users that the extension is a standard addition of 15 seconds
+    * _Reset Frame_ button to reset all variables to their starting points of this screen, allowing for more than one frame to be played within a match
+    ![Coundown](assets/readme/countdown.png)
+
+ * Footer section
+    * Within the footer section there are three elements
+    * A button to control whether the site remains in the default black and white or changes to colour
+    * A button to return to or progress to the _Timer selection screen_
+    * Copyright information in x-small font at the bottom center of the page
+    ![Footer](assets/readme/footer.png)
