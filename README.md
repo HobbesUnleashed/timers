@@ -1,9 +1,9 @@
 ![Rack 'n' Beard logo](assets/images/wo-glasses.webp) 
 # Rack 'n' Beard Shot timer
 
-Rack 'n' Beard shot timers is an online website that provides a selection of countdown timers for users to choose between, depending upon their requirements for the game or tournament that they are participating in.
+Rack 'n' Beard shot timers is an online website that provides a selection of countdown timers for users to choose between, depending upon their requirements for the game or tournament that they are participating in
 
-These timers are developed with the express intention of being used within the game of 8-ball pool and has been designed to reflect this sport in the images and terminology used. Within this sport there are certain actions that can be invoked by the player/user, such as calling for an extension to their time to allow for further planning for their turn - however restrictions also apply to how and when these can be used.
+These timers are developed with the express intention of being used within the game of 8-ball pool and has been designed to reflect this sport in the images and terminology used. Within this sport there are certain actions that can be invoked by the player/user, such as calling for an extension to their time to allow for further planning for their turn - however restrictions also apply to how and when these can be used
 
 ![Am I responsive](assets/readme/responsive.png)
 
@@ -34,11 +34,11 @@ These timers are developed with the express intention of being used within the g
 
 ## User Experience (UX)
 
-This website was developed to allow 8-ball pool enthusiasts wishing to add a time restriction to their game. Other timers are available but limit the user to a single, pre-determined time for each visit to the table.
+This website was developed to allow 8-ball pool enthusiasts wishing to add a time restriction to their game. Other timers are available but limit the user to a single, pre-determined time for each visit to the table
 
-This site has the added benefit of allowing the user to choose between a selection of four individual timers ranging from 15 to 60 seconds, incrementing by 15 seconds.
+This site has the added benefit of allowing the user to choose between a selection of four individual timers ranging from 15 to 60 seconds, incrementing by 15 seconds
 
-There is also the added option of changing the presentation of the site from a black and white styling to an all colour option allowing for a little more personalisation for the user in how they view the site.
+There is also the added option of changing the presentation of the site from a black and white styling to an all colour option allowing for a little more personalisation for the user in how they view the site
 
 ### User stories
 
@@ -155,22 +155,76 @@ There is also the added option of changing the presentation of the site from a b
  ## Frameworks, Libraries & Programs Used
 
  * [Gitpod](https://www.gitpod.io/)
-    * To write the code.
+    * To write the code
  * [Git](https://git-scm.com/)
-    * for vesion control.
+    * for vesion control
  * [Github](https://github.com/)
-    * Deployment of the website and storing the files online.
+    * Deployment of the website and storing the files online
  * [Google Fonts](https://fonts.google.com/)
-    * Import main font the website.
+    * Import main font the website
 * [Am I Responsive](https://ui.dev/amiresponsive)
-    * Mockup picture for the README file.
+    * Mockup picture for the README file
 
 ---
 
+## Testing
 
+The W3C Markup Validator and W3C CSS Validator services were used to validate every page of the project to ensure there were no errors
 
+ * [W3C Markup Validtor](https://validator.w3.org/)
+ * [W3C CSS Validator](https://jigsaw.w3.org/css-validator/)
+ * [JShint validator](https://jshint.com/)
 
+ ### Validation results
 
+<details>
+<summary>index.html
+</summary>
+
+![Website validation result](assets/readme/validation-html.png)
+</details>
+
+<details>
+<summary>style.css
+</summary>
+
+![Website validation result](assets/readme/validation-css.png)
+</details>
+
+<details>
+<summary>script.js
+</summary>
+
+![Website validation result](assets/readme/validation-js.png)
+</details>
+
+### Manual Testing
+
+* The website was tested on Google Chrome, Microsoft Edge, and Opera browsers
+* The website was viewed on a desktop computer, laptop, and Samsung Galaxy S22+ mobile phone
+* A large amount of testing was done to ensure all buttons work and hide/show the correct information
+* Family and friends were asked to review the website for a better understanding of the user experience
+* Dev Tools was used to test how the site looks on various screen sizes
+
+### Lighthouse report
+
+#### Mobile analysis
+
+<details>
+<summary>Website (index.html)
+</summary>
+
+![Home Page Lighthouse result](assets/readme/lighthouse-mobile.png)
+</details>
+
+#### Desktop analysis
+
+<details>
+<summary>Website (index.html)
+</summary>
+
+![Home Page Lighthouse result](assets/readme/lighthouse-desktop.png)
+</details>
 
 ---
 
@@ -178,31 +232,31 @@ There is also the added option of changing the presentation of the site from a b
 
 ### GitHub Pages
 
-GitHub Pages used to deploy live version of the website.
+GitHub Pages used to deploy live version of the website
 1. Log in to GitHub and locate [GitHub Repository Rack 'n' Beard shot timers](https://github.com/HobbesUnleashed/timers)
-2. At the top of the Repository(not the main navigation) locate "Settings" button on the menu.
-3. Scroll down the Settings page until you locate "GitHub Pages".
-4. Under "Source", click the dropdown menu "None" and select "Main" and click "Save".
-5. The page will automatically refresh.
-6. Scroll back to locate the now-published site [link](https://hobbesunleashed.github.io/timers/) in the "GitHub Pages" section.
+2. At the top of the Repository(not the main navigation) locate "Settings" button on the menu
+3. Scroll down the Settings page until you locate "GitHub Pages"
+4. Under "Source", click the dropdown menu "None" and select "Main" and click "Save"
+5. The page will automatically refresh
+6. Scroll back to locate the now-published site [link](https://hobbesunleashed.github.io/timers/) in the "GitHub Pages" section
 
 ### Forking the GitHub Repository
 
 By forking the repository, we make a copy of the original repository on our GitHub account to view and change without affecting the original repository by using these steps:
 
 1. Log in to GitHub and locate [GitHub Repository Rack 'n' Beard shot timers](https://github.com/HobbesUnleashed/timers)
-2. At the top of the Repository(under the main navigation) locate "Fork" button.
-3. Now you should have a copy of the original repository in your GitHub account.
+2. At the top of the Repository(under the main navigation) locate "Fork" button
+3. Now you should have a copy of the original repository in your GitHub account
 
 ### Local Clone
 
 1. Log in to GitHub and locate [GitHub Repository Rack 'n' Beard shot timers](https://github.com/HobbesUnleashed/timers)
 2. Under the repository name click "Clone or download"
-3. Click on the code button, select clone with HTTPS, SSH or GitHub CLI and copy the link shown.
+3. Click on the code button, select clone with HTTPS, SSH or GitHub CLI and copy the link shown
 4. Open Git Bash
-5. Change the current working directory to the location where you want the cloned directory to be made.
-6. Type `git clone` and then paste The URL copied in the step 3.
-7. Press Enter and your local clone will be created.
+5. Change the current working directory to the location where you want the cloned directory to be made
+6. Type `git clone` and then paste The URL copied in the step 3
+7. Press Enter and your local clone will be created
 
 ---
 
@@ -211,16 +265,16 @@ By forking the repository, we make a copy of the original repository on our GitH
 ### Code
 
  * The README template was helpfully provided by [Code Institute (template)](https://github.com/Code-Institute-Solutions/readme-love-maths/blob/master/README.md)
- * Mozilla Developer Network (MDN) for understanding JavaScript built-in methods.
+ * Mozilla Developer Network (MDN) for understanding JavaScript built-in methods
  * W3School for helpful insights into JavaScript functions and methods
  * W3Schools: Countdown timers: [link](https://www.w3schools.com/howto/howto_js_countdown.asp), helped me to understand timers within JavaScript
- * W3Schools: [link](https://www.w3schools.com/Jsref/met_win_setinterval.asp), helped me understand time intervals and assign accurately.
+ * W3Schools: [link](https://www.w3schools.com/Jsref/met_win_setinterval.asp), helped me understand time intervals and assign accurately
  
  ### Content
 
-  * All content was written by the developer.
-  * [Font Awesome](https://fontawesome.com/) was used to obtain the free icon for the header.
-  * Same icon was used to create a favicon the the website.
+  * All content was written by the developer
+  * [Font Awesome](https://fontawesome.com/) was used to obtain the free icon for the header
+  * Same icon was used to create a favicon the the website
 
 ### Media
 
@@ -232,5 +286,6 @@ By forking the repository, we make a copy of the original repository on our GitH
 
 ## Acknowledgements
 
- * My mentor Mitko Bachvarov provided helpful feedback.
- * Slack community for encouragement.
+ * My mentor Mitko Bachvarov provided helpful feedback
+ * Slack community for encouragement
+ * Special thanks to Cousins Snooker and Pool club for permission to use images of their club and logo for this site
