@@ -176,7 +176,7 @@ button {
 
 #fifteen, #startPause {
     grid-area: op1;
-    align-content center;
+    align-content: center;
 
 }
 

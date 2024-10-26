@@ -56,7 +56,7 @@ function startPause() {
             // If time is less than or equal to 5 on screen - change text to red
             if (timeLeft < 4) {
                 timer.style.color = "red";
-                beepsound.play()
+                beepsound.play();
             }
 
             // If timer reaches 0, replace numbers with an 'x'
@@ -69,7 +69,7 @@ function startPause() {
         startPauseBtn.innerHTML = "Pause";
     } else {
         clearInterval(countdown);
-        startPauseBtn.innerHTML = "Resume"
+        startPauseBtn.innerHTML = "Resume";
     }
 
     isRunning = !isRunning;
@@ -138,25 +138,25 @@ document.getElementById("modeBtn").addEventListener("click", function() {
         // Set the attributes to be changed to variables
         document.getElementById('logoImg').src="assets/images/wo-glasses.svg";
         document.getElementById('sponsorImg').src="assets/images/cousins-logo.webp";
-        document.body.style.backgroundImage = "url(assets/images/cousins.webp"
+        document.body.style.backgroundImage = "url(assets/images/cousins.webp";
         document.body.style.backgroundRepeat = "no-repeat";
         document.body.style.backgroundPosition = "center center";
         document.body.style.backgroundSize = "cover";
         document.getElementById("header").style.backgroundImage = "linear-gradient(135deg, green, blue)";
         document.getElementById("ext").style.color = "rgb(255, 0, 0)";
         dark=true;
-        this.innerHTML = `Dark mode`
+        this.innerHTML = `Dark mode`;
     } else {
         document.getElementById('logoImg').src="assets/images/wo-glasses-bw.svg";
         document.getElementById('sponsorImg').src="assets/images/cousins-logo-bw.webp";
-        document.body.style.backgroundImage = "url(assets/images/cousins-bw.webp"
+        document.body.style.backgroundImage = "url(assets/images/cousins-bw.webp";
         document.body.style.backgroundRepeat = "no-repeat";
         document.body.style.backgroundPosition = "center center";
         document.body.style.backgroundSize = "cover";
         document.getElementById("header").style.backgroundImage = "linear-gradient(135deg, black, darkgrey)";
         document.getElementById("ext").style.color = "rgb(0, 128, 0";
         dark=false;
-        this.innerHTML = `Colour mode`
+        this.innerHTML = `Colour mode`;
     }
 });
 
