@@ -206,6 +206,18 @@ The W3C Markup Validator and W3C CSS Validator services were used to validate ev
 * Family and friends were asked to review the website for a better understanding of the user experience
 * Dev Tools was used to test how the site looks on various screen sizes
 
+### Bugs
+
+#### Solved bugs
+
+ * When I published my project I found that certain elements of my JavaScript were not functioning as expected, upon further investigation it was found that these errors arose due to simple spelling errors and or incorrect precedence to the functions and the order in which actions were being called upon
+ * Other issues included the problems with my timers in which the incremental decrease would not be a single second, but rather decrease in blocks of two or even three seconds when an extension was invoked
+ * Upon investigation of this, it was found that there were additional incremental decreases included for when an extension was called causing the timing to appear correct at first, but quickly become incorrect. These were fixed by including console.log() calls to see what was being done by the script and identify the exact issues (these console.log()s have subsequently been removed from the code)
+
+ #### Unsolved bugs
+
+ * None
+
 ### Lighthouse report
 
 #### Mobile analysis
