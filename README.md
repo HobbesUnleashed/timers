@@ -172,31 +172,31 @@ There is also the added option of changing the presentation of the site from a b
 
 
 
-
+---
 
 ## Deployment and local development
 
 ### GitHub Pages
 
 GitHub Pages used to deploy live version of the website.
-1. Log in to GitHub and locate [GitHub Repository Creative Crafts with Kel](https://github.com/HobbesUnleashed/creative-crafts-with-kel)
+1. Log in to GitHub and locate [GitHub Repository Rack 'n' Beard shot timers](https://github.com/HobbesUnleashed/timers)
 2. At the top of the Repository(not the main navigation) locate "Settings" button on the menu.
 3. Scroll down the Settings page until you locate "GitHub Pages".
 4. Under "Source", click the dropdown menu "None" and select "Main" and click "Save".
 5. The page will automatically refresh.
-6. Scroll back to locate the now-published site [link](https://hobbesunleashed.github.io/creative-crafts-with-kel/index.html) in the "GitHub Pages" section.
+6. Scroll back to locate the now-published site [link](https://hobbesunleashed.github.io/timers/) in the "GitHub Pages" section.
 
 ### Forking the GitHub Repository
 
 By forking the repository, we make a copy of the original repository on our GitHub account to view and change without affecting the original repository by using these steps:
 
-1. Log in to GitHub and locate [GitHub Repository Creative Crafts with Kel](https://github.com/HobbesUnleashed/creative-crafts-with-kel)
+1. Log in to GitHub and locate [GitHub Repository Rack 'n' Beard shot timers](https://github.com/HobbesUnleashed/timers)
 2. At the top of the Repository(under the main navigation) locate "Fork" button.
 3. Now you should have a copy of the original repository in your GitHub account.
 
 ### Local Clone
 
-1. Log in to GitHub and locate [GitHub Repository Creative Crafts with Kel](https://github.com/HobbesUnleashed/creative-crafts-with-kel)
+1. Log in to GitHub and locate [GitHub Repository Rack 'n' Beard shot timers](https://github.com/HobbesUnleashed/timers)
 2. Under the repository name click "Clone or download"
 3. Click on the code button, select clone with HTTPS, SSH or GitHub CLI and copy the link shown.
 4. Open Git Bash
