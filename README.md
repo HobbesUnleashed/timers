@@ -132,3 +132,16 @@ There is also the added option of changing the presentation of the site from a b
     * A button to return to or progress to the _Timer selection screen_
     * Copyright information in x-small font at the bottom center of the page
     ![Footer](assets/readme/footer.png)
+
+---
+
+## Future features
+ * An option to add a match-timer, allowing for a game to last only a specific amount of time from start to finish
+ * Match-timer will have the over-arching control of the shot-timer and will pause/reset all if needed
+ * Input for users to add names to the Match-timer
+ * A frame counter, to track how many frames/games each inputted user has won so far
+ * A Match limit for frames, should a game reach its maximum frames for a win before match-timer runs out then the game will stop
+
+ ---
+ 
+ 
