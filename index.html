@@ -36,25 +36,25 @@
         <section id="welcome">
             <div id="spiel"><h1>Welcome to the Rack 'n' Beard timers</h1></div>
             <div id="info">This site is primarily for the setting up and use of a 'shot clock' or timer for the purpose of limiting the available time for planning and taking a turn in a game of 8-ball pool</div>
-            <button onclick="cont()" id="continue">Continue</button>
+            <button onclick="cont()" id="continue" title="Continue to timer selection">Continue</button>
         </section>
 
         <section id="home">
             <div id="disOpts"><h1>Select your length of shot clock</h1></div>
-            <button onclick="setTimer(14)" id="fifteen">15 seconds</button>
-            <button onclick="setTimer(29)" id="thirty">30 seconds</button>
-            <button onclick="setTimer(44)" id="fortyFive">45 seconds</button>
-            <button onclick="setTimer(59)" id="sixty">60 seconds</button>
+            <button onclick="setTimer(14)" id="fifteen" title="15 second timer">15 seconds</button>
+            <button onclick="setTimer(29)" id="thirty" title="30 second timer">30 seconds</button>
+            <button onclick="setTimer(44)" id="fortyFive" title="45 second timer">45 seconds</button>
+            <button onclick="setTimer(59)" id="sixty" title="60 second timer">60 seconds</button>
         </section>
 
         <section id="clocks">
             <div id="timer"><h1>--</h1></div>
-            <button onclick="startPause()" id="startPause">Start</button>
-            <button onclick="reset()" id="reset">Reset</button>
-            <button onclick="addTime('yellow')" id="yellow">Yellow+</button>
-            <button onclick="addTime('red')" id="red">Red+</button>
+            <button onclick="startPause()" id="startPause" title="Start or Pause timer">Start</button>
+            <button onclick="reset()" id="reset" title="Reset the timer">Reset</button>
+            <button onclick="addTime('yellow')" id="yellow" title="Add a 15 second extension">Yellow+</button>
+            <button onclick="addTime('red')" id="red" title="Add a 15 second extension">Red+</button>
             <div id="ext">Extensions are fixed at 15 additional seconds</div>
-            <button onclick="resetFrame()" id="resetFrame">Reset Frame</button>
+            <button onclick="resetFrame()" id="resetFrame" title="Reset the Frame">Reset Frame</button>
         </section>
 
         <audio src="assets/audio/beep.mp3" id="beep" preload="auto"></audio>
@@ -64,10 +64,10 @@
 
     <footer id="footer">
         <div id="mode">
-            <button id="modeBtn">Colour mode</button>
+            <button id="modeBtn" title="Change the colour mode - b&w or colour">Colour mode</button>
         </div>
         <div id="beg">
-            <button id="begBtn" onclick="beginning()">Timer options</button>
+            <button id="begBtn" onclick="beginning()" title="Go to timer selection">Timer options</button>
         </div>
         <div id="copyright">
             &#169; Rack 'n'Beard - All materials are either the intellectual and real property of Rack 'n' Beard productions or used with permission
