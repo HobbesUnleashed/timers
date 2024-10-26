@@ -205,3 +205,32 @@ By forking the repository, we make a copy of the original repository on our GitH
 7. Press Enter and your local clone will be created.
 
 ---
+
+## Credits
+
+### Code
+
+ * The README template was helpfully provided by [Code Institute (template)](https://github.com/Code-Institute-Solutions/readme-love-maths/blob/master/README.md)
+ * Mozilla Developer Network (MDN) for understanding JavaScript built-in methods.
+ * W3School for helpful insights into JavaScript functions and methods
+ * W3Schools: Countdown timers: [link](https://www.w3schools.com/howto/howto_js_countdown.asp), helped me to understand timers within JavaScript
+ * W3Schools: [link](https://www.w3schools.com/Jsref/met_win_setinterval.asp), helped me understand time intervals and assign accurately.
+ 
+ ### Content
+
+  * All content was written by the developer.
+  * [Font Awesome](https://fontawesome.com/) was used to obtain the free icon for the header.
+  * Same icon was used to create a favicon the the website.
+
+### Media
+
+ * [Font Awesome](https://fontawesome.com/)
+ * [Color Mind](http://colormind.io/)
+ * [Am I responsive?](https://ui.dev/amiresponsive)
+
+---
+
+## Acknowledgements
+
+ * My mentor Mitko Bachvarov provided helpful feedback.
+ * Slack community for encouragement.
