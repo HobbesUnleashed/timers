@@ -52,5 +52,31 @@ There is also the added option of changing the presentation of the site from a b
     * To have confidence in the timer and the options presented to ensure a smooth game and accurate recording of the time
     * To know that the options to add an extension of 15 seconds will work in the way that is used professionally within the sport, making for a better practice and preparation for progressing to the next stage of their game
 
+---
+
+## Design
+
+* Colour Scheme
+    * Primary colors scheme on the website:   
+    ![Color Scheme](assets/readme/primary.png)
+
+    * Secondary colors scheme on the website:
+    ![Color Scheme](assets/readme/secondary.png)
+
+    * Extension button colors:
+    ![Color Scheme](assets/readme/extensions.png)
+
+    * Additonal information colors:
+    ![Color Scheme](assets/readme/additional.png)
+
+* Typography
+    * _Monserrat_ font is main font used throughout the site with _sans-serif_ as its fallback font in case _Monserrat_ isn't supported for some reason.
+    * The Header is split into two sections:
+        * Site 'Title' is styled using the Google font _Dancing Script_ with _cursive_ as its fallback, in case _Dancing Script_ doesn't import for some reason.
+        * Site 'Slogan' is styled using the Google font _Satisfy_ with _cursive_ as its fallback, in case _Satisfy_ doesn't import for some reason.
+
+* Wireframes
+    * Pen and paper in a notebook: simple and effective.
 
 ---
+
